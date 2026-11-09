@@ -32,7 +32,7 @@ All of these are examples written for the design and are **not real**:
 |---|---|
 | Example portfolio companies (everything except Tvashara and Rattonot) | `COMPANIES` array in `assets/js/main.js` |
 | Floating cards on the home page (names, intros, timings) | `index.html`, "Building is hard" section |
-| Team names, roles and bios; LinkedIn links | `about.html`, "The team" section |
+| More team members (Kiran V, Sangam L R and Renuka Prasad are real; add the rest as `.person` cards) | `about.html`, "The team" section |
 | Investment terms (stage, cheque size, role, geography) | `index.html`, "How we invest" |
 | Founding story | `about.html`, "Our story" |
 | Testimonial quote | `portfolio.html` |
