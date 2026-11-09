@@ -36,7 +36,7 @@ All of these are examples written for the design and are **not real**:
 | Investment terms (stage, cheque size, role, geography) | `index.html`, "How we invest" |
 | Founding story | `about.html`, "Our story" |
 | Testimonial quote | `portfolio.html` |
-| Email addresses (`founders@` / `hello@verdandicapital.com`) | every page (header, CTAs, footer) |
+| Email addresses (`founders@` / `hello@verdandicapital.in`) | every page (header, CTAs, footer) |
 | LinkedIn URL (`href="#"`) | footer on every page |
 
 Each placeholder is also marked with a `<!-- PLACEHOLDER -->` comment in the HTML. Team portraits are monogram cards. To use photos, put an `<img>` inside `.portrait`.
