@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Verdandi Capital</title>
+  <meta name="description" content="The founders and companies Verdandi Capital has backed, including Tvashara and Rattonot.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="page-dark">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="announce" href="mailto:founders@verdandicapital.com">Now backing pre-seed &amp; seed founders →</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Verdandi Capital home">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M7 5 16 27 25 5" stroke="currentColor" stroke-width="2.4"/><path d="M2.5 15.5c6-4 11 3 16 0s8.5-2 11 0" stroke="#a8a6ff" stroke-width="2"/></svg>
+        verdandi
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        </ul>
+        <a class="btn btn-outline" href="mailto:founders@verdandicapital.com">Pitch us
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h17M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero page-hero">
+      <div class="orb" aria-hidden="true">
+        <svg class="orb-threads" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path d="M-5 62C20 48 35 72 52 58S80 44 105 56"/>
+          <path d="M-5 56C22 70 40 46 56 60S82 66 105 50"/>
+        </svg>
+      </div>
+      <div class="container">
+        <h1 class="rise">The founders we back.</h1>
+        <p class="lede rise d1">Each one backed at the very beginning, while the future was still being built.</p>
+      </div>
+      <div class="curve" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" style="padding-top:clamp(48px,6vw,80px)">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filter by sector">
+          <button class="chip" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="climate" aria-pressed="false">Climate &amp; Energy</button>
+          <button class="chip" data-filter="ai" aria-pressed="false">Applied AI</button>
+          <button class="chip" data-filter="industrial" aria-pressed="false">Industrial</button>
+          <button class="chip" data-filter="fintech" aria-pressed="false">Fintech</button>
+        </div>
+        <!-- Cards are rendered from COMPANIES in assets/js/main.js -->
+        <div class="portfolio-grid" data-portfolio aria-live="polite"></div>
+        <div class="portfolio-foot">
+          <p><span data-count></span> shown. Some investments are not yet announced and are left off this page at the founders' request.</p>
+          <a class="text-link" href="mailto:founders@verdandicapital.com">Join them
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h17M14 6l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section on-dark">
+      <figure class="container quote reveal">
+        <!-- PLACEHOLDER testimonial -->
+        <blockquote>“They wrote the first cheque when we had a prototype and a hunch. <span>Then they stayed in the room for everything after.”</span></blockquote>
+        <figcaption>Founder, portfolio company</figcaption>
+      </figure>
+    </section>
+
+    <section class="section final on-white">
+      <div class="container">
+        <h2 class="reveal">You could be next.</h2>
+        <p class="lede reveal" data-delay="1">Pre-seed or seed, and building something that's still becoming? Tell us about it.</p>
+        <div class="reveal" data-delay="2">
+          <a class="field-cta is-light" href="mailto:founders@verdandicapital.com">
+            <span>founders@verdandicapital.com</span>
+            <i><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h17M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" style="background:var(--white)">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a class="brand" href="index.html" aria-label="Verdandi Capital home">
+            <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M7 5 16 27 25 5" stroke="currentColor" stroke-width="2.4"/><path d="M2.5 15.5c6-4 11 3 16 0s8.5-2 11 0" stroke="#4a47d6" stroke-width="2"/></svg>
+            verdandi
+          </a>
+          <p>Verdandi Capital is an early-stage venture firm backing what is becoming.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="about.html">About &amp; Team</a></li>
+          <li><a href="mailto:founders@verdandicapital.com">Pitch us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="mailto:hello@verdandicapital.com">General enquiries</a></li>
+          <li><a href="#" rel="noopener">LinkedIn</a></li>
+        </ul>
+        <div class="footer-legal">
+          <span>© <span data-year>2026</span> Verdandi Capital</span>
+          <span>Nothing on this site is an offer to sell or a solicitation to buy any security.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
