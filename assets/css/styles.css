@@ -140,6 +140,8 @@ p { margin: 0; }
 
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 24px; letter-spacing: -0.04em; }
 .brand-mark { width: 26px; height: 26px; }
+.brand-accent { color: #a8a6ff; } /* violet on black header */
+.site-footer .brand-accent { color: var(--indigo); } /* deeper violet on white footer */
 
 .nav { display: flex; align-items: center; gap: 36px; }
 .nav-links { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; }
